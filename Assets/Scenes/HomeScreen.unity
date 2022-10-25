@@ -783,13 +783,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1095499042}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3d2e41e9c644a474792bc4d1c8a220aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _UIElements:
-  - {fileID: 2258573365409472351, guid: 073cb1a02b71c0c469a4d8d27dcbfc08, type: 3}
   - {fileID: 3838898964390049766, guid: b2b6127836cc5b54ebc385cfcf0c59b7, type: 3}
 --- !u!1 &1146019990
 GameObject:
@@ -877,6 +876,7 @@ GameObject:
   - component: {fileID: 1293178099}
   - component: {fileID: 1293178098}
   - component: {fileID: 1293178097}
+  - component: {fileID: 1293178101}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -966,6 +966,23 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1293178101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1293178096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f08b4176123562419b0616e521dbecb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scrollContentWindow: {fileID: 1095499043}
+  configs:
+  - {fileID: 11400000, guid: 9e657dfb5dcf9dd4eaf7a438e38d1c6b, type: 2}
+  attractionEntryHolderPrefab: {fileID: 3838898964390049766, guid: b2b6127836cc5b54ebc385cfcf0c59b7,
+    type: 3}
 --- !u!1 &1465556837
 GameObject:
   m_ObjectHideFlags: 0
@@ -1136,7 +1153,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -75.00003}
+  m_AnchoredPosition: {x: 0, y: -75}
   m_SizeDelta: {x: 0, y: -150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1901325214

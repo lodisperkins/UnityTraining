@@ -1027,8 +1027,9 @@ GameObject:
   - component: {fileID: 3838898964390049764}
   - component: {fileID: 7609844470039558183}
   - component: {fileID: 3838898964390049752}
+  - component: {fileID: -324720876129572252}
   m_Layer: 5
-  m_Name: AttractionEntryHolder (Raff)
+  m_Name: AttractionEntryHolder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1143,6 +1144,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ba54f79407e5194480ca577507cb6c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &-324720876129572252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3838898964390049766}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f41165c0d9218704d806a4abb8d7afee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  titleText: {fileID: 3838898963307022610}
+  locationText: {fileID: 3838898963241363356}
+  stars:
+  - {fileID: 3838898963534265242}
+  - {fileID: 3838898963123482207}
+  - {fileID: 3838898963780126023}
+  - {fileID: 3838898963886440414}
+  - {fileID: 3838898963913024028}
+  pieceImage: {fileID: 3838898964064519166}
+  likeColor: {r: 1, g: 0.7490196, b: 0, a: 1}
+  dislikeColor: {r: 0.1792453, g: 0.1767088, b: 0.1767088, a: 1}
 --- !u!1 &3838898964632887604
 GameObject:
   m_ObjectHideFlags: 0
@@ -1178,8 +1202,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: 165, y: 40}
-  m_SizeDelta: {x: -430, y: 200}
+  m_AnchoredPosition: {x: 623, y: 40}
+  m_SizeDelta: {x: 485.99652, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &3838898964705549574
 GameObject:
